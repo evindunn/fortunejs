@@ -1,2 +1,12 @@
-fortune database taken from:[Ubuntu's fortune-mod](https://code.launchpad.net/fortune-mod)
-which is licensed by the [Simplified BSC License](https://opensource.org/licenses/BSD-2-Clause)
+<a name="fortune"></a>
+
+## fortune(topic) ⇒ <code>string</code>
+Returns a random fortune
+
+**Kind**: global function  
+**Returns**: <code>string</code> - Promise to return a random fortune  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| topic | <code>string</code> | An optional topic for the fortune |
+

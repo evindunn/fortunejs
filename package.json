@@ -4,6 +4,8 @@
   "description": "Javascript port of the UNIX \"fortune\" command",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "doc": "jsdoc2md dist/index.js > README.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +19,11 @@
   },
   "homepage": "https://gitlab.com/evindunn/fortunejs#README",
   "dependencies": {
+    "@types/node": "^10.5.2",
+    "@types/sqlite3": "^3.1.3",
     "sqlite3": "^4.0.1"
+  },
+  "devDependencies": {
+    "jsdoc-to-markdown": "^4.0.1"
   }
 }
