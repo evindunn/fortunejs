@@ -2,7 +2,7 @@
   "name": "fortunejs",
   "version": "0.0.8",
   "description": "Javascript port of the UNIX \"fortune\" command",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "doc": "jsdoc2md dist/index.js > README.md",
