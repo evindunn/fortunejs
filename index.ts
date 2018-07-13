@@ -52,7 +52,7 @@ interface Options {
  *  matches the given options, the promise returns an empty string
  */
 export function fortune(options?: Options): Promise<string> {
-  const db: sqlite3.Database = new sqlite3.Database("db/fortunes.db");
+  const db: sqlite3.Database = new sqlite3.Database("../db/fortunes.db");
   let promise: Promise<string> = new Promise<string>((resolve, reject) => {
     if (options && (options.hasOwnProperty("topic") || options.hasOwnProperty("dirty"))) {
       if (options.dirty == null && options.topic) {
