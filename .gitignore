@@ -1,2 +1,4 @@
 dist/*
 node_modules/*
+db/fortune-mod/*
+db/extract.py
