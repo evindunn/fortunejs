@@ -1,6 +1,6 @@
 {
   "name": "fortunejs",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Javascript port of the UNIX \"fortune\" command",
   "main": "dist/index.js",
   "scripts": {
